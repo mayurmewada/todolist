@@ -1,0 +1,47 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to top left, #802b2b, #d56f6f);
+}
+
+.task {
+  width: 65%;
+  height: 30px;
+  padding-right: 90px;
+  margin: 20px 0px;
+}
+
+.btn {
+  margin-left: -80px;
+  height: 32px;
+  width: 15%;
+  border: 0;
+}
+
+.head {
+  margin: 15px auto;
+  max-width: 500px;
+  border: 0px solid black;
+}
+
+.main {
+  margin: 25px auto;
+  max-width: 500px;
+  border: 0px solid black;
+}
+
+li {
+  font-size: 20px;
+}
+
+.hidden {
+  text-decoration: line-through;
+}
